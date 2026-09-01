@@ -1,0 +1,13 @@
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+joblib
+scipy
+imbalanced-learn
+ydata-profiling
+ipykernel
+xgboost
+lightgbm
+catboost

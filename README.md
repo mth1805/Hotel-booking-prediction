@@ -6,6 +6,10 @@
   <img src="assets/pipeline.png" alt="Project Pipeline" width="800">
 </p>
 
+<p align="center">
+  📊 <a href="REPORT.pdf">REPORT</a> &nbsp;&bull;&nbsp; 📈 <a href="EDA_REPORT.pdf">EDA_REPORT</a> &nbsp;&bull;&nbsp
+</p>
+
 ## **DỰ ĐOÁN KHẢ NĂNG HỦY ĐẶT PHÒNG KHÁCH SẠN** *(Hotel Booking Cancellation Prediction)*
 Đồ án này tập trung khai thác sâu dữ liệu lịch sử đặt phòng nhằm giải quyết một trong những bài toán vận hành cốt lõi của ngành dịch vụ lưu trú. Thông qua việc áp dụng các thuật toán học máy tiên tiến, hệ thống không chỉ giúp dự báo chính xác rủi ro hủy phòng mà còn mang đến cái nhìn trực quan về hành vi khách hàng, hỗ trợ ban quản lý tối ưu hóa doanh thu và hoạch định chiến lược kinh doanh hiệu quả.
 

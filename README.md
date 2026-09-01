@@ -1,5 +1,5 @@
-#**CHỦ ĐỀ ĐỒ ÁN: DỰ ĐOÁN KHẢ NĂNG HỦY ĐẶT PHÒNG KHÁCH SẠN**
-*(Hotel Booking Cancellation Prediction)*
+## **DỰ ĐOÁN KHẢ NĂNG HỦY ĐẶT PHÒNG KHÁCH SẠN** *(Hotel Booking Cancellation Prediction)*
+Đồ án này tập trung khai thác sâu dữ liệu lịch sử đặt phòng nhằm giải quyết một trong những bài toán vận hành cốt lõi của ngành dịch vụ lưu trú. Thông qua việc áp dụng các thuật toán học máy tiên tiến, hệ thống không chỉ giúp dự báo chính xác rủi ro hủy phòng mà còn mang đến cái nhìn trực quan về hành vi khách hàng, hỗ trợ ban quản lý tối ưu hóa doanh thu và hoạch định chiến lược kinh doanh hiệu quả.
 
 ## I. GIỚI THIỆU
 Dự án xây dựng mô hình Machine Learning nhằm dự đoán khách hàng có hủy đặt phòng hay không, hỗ trợ khách sạn:

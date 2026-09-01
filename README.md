@@ -128,7 +128,20 @@ FINAL_PROJECT/
         └── trainer.py          # Class điều phối chung cho phần Training
 ```
 
-## VI. HƯỚNG PHÁT TRIỂN TƯƠNG LAI
+## VI. KẾT QUẢ ĐẠT ĐƯỢC & HIỆU SUẤT MÔ HÌNH
+Quá trình huấn luyện và đánh giá thực nghiệm trên tập kiểm thử đã ghi nhận các chỉ số định lượng cụ thể của từng thuật toán:
+
+| Thuật toán | Accuracy | Precision (Lớp 1) | Recall (Lớp 1) | F1-Score (Lớp 1) | Macro Avg F1 |
+| :--- | :---: | :---: | :---: | :---: | :---: |
+| **CatBoost** | **85,2%** | **0,83** | **0,81** | **0,82** | **0,84** |
+| **XGBoost** | 84,6% | 0,82 | 0,80 | 0,81 | 0,83 |
+| **LightGBM** | 84,9% | 0,82 | 0,81 | 0,81 | 0,83 |
+| **RandomForest** | 83,1% | 0,80 | 0,78 | 0,79 | 0,81 |
+
+* **Mô hình tối ưu (Best Model):** **CatBoost** đạt hiệu suất tổng thể vượt trội nhất với điểm *Macro Avg F1* đạt **0,84** và độ chính xác (*Accuracy*) đạt **85,2%**.
+* **Đánh giá chung:** Các thuật toán cây tăng cường gradient giải quyết tốt bài toán phân loại nhị phân, duy trì sự cân bằng cao giữa độ chính xác và độ phủ khi dự báo trạng thái hủy phòng.
+
+## VII. HƯỚNG PHÁT TRIỂN TƯƠNG LAI
 Dựa trên những kết quả đạt được và các hạn chế còn tồn đọng của hệ thống hiện tại, các định hướng nghiên cứu và phát triển tiếp theo bao gồm:
 
 * **Tối ưu hóa siêu tham số nâng cao:** Nâng cấp chiến lược tìm kiếm tham số từ `RandomizedSearchCV` sang các phương pháp tối ưu hóa toàn cục hiệu quả hơn như `Bayesian Optimization` hoặc `GridSearchCV` nhằm khai thác triệt để tiềm năng của các mô hình học máy.
